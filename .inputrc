@@ -1,0 +1,6 @@
+# Include system-wide inputrc
+$include /etc/inputrc
+
+# Up/Down arrow searches history based on typed prefix
+"\e[A": history-search-backward
+"\e[B": history-search-forward
